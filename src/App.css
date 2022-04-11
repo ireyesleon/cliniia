@@ -1,17 +1,22 @@
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
     max-width: 100vw;
     background-color: beige;
-    padding: 0 3vw;
-    align-content: center;
+    padding: 0 1vw;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
+nav h1 {
+    display: inline-block;
+}
+
+nav ul {
+    justify-content: end;
+}
+
+nav ul a {
+    padding: 10px;
+    text-decoration: none;
 }
 
 li a {
@@ -28,11 +33,20 @@ li:hover a {
     position: fixed;
     bottom: 0;
     /* Create a media query when the content does not fill the entire page */
-    display: flex;
-    justify-content: space-between;
     width: 100vw;
     max-width: 100vw;
     background-color: beige;
-    padding: 0 3vw;
     align-content: center;
+}
+
+.footer ul {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
 }

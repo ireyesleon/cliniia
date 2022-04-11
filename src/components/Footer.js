@@ -6,13 +6,17 @@ const Footer = () => {
   return (
     <>
     <div className='footer'>
-        <h2>Isaías Reyes León</h2>
-        <ul>
-            <li><a href='/'>About</a></li>
-            <li><a href='/'>Portfolio</a></li>
-            <li><a href='/'>Contact</a></li>
-            <li><a href='./assets/Isaias Reyes Leon Resume.pdf' download>Resume</a></li>
-        </ul>
+    <ul>
+        <li>
+            <a href="https://github.com/ireyesleon" class="bi bi-github"> Github</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/ireyesleon/" class="bi bi-linkedin"> Linkedin</a>
+        </li>
+        <li>
+            <a href="https://twitter.com/elreyieon" class="bi bi-twitter"> Twitter</a>
+        </li>
+    </ul>
     </div>
     </>
   )
