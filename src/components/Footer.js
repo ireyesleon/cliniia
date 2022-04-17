@@ -5,16 +5,16 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-    <div className='footer'>
+    <div className='footer pt-3'>
     <ul>
         <li>
-            <a href="https://github.com/ireyesleon" class="bi bi-github"> Github</a>
+            <a href="https://github.com/ireyesleon" className="bi bi-github"> Github</a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/in/ireyesleon/" class="bi bi-linkedin"> Linkedin</a>
+            <a href="https://www.linkedin.com/in/ireyesleon/" className="bi bi-linkedin"> Linkedin</a>
         </li>
         <li>
-            <a href="https://twitter.com/elreyieon" class="bi bi-twitter"> Twitter</a>
+            <a href="https://twitter.com/elreyieon" className="bi bi-twitter"> Twitter</a>
         </li>
     </ul>
     </div>

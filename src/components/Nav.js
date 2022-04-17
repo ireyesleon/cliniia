@@ -4,19 +4,15 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <>
-    <div className='nav'>
-      <nav>
-        <h1>Isaías Reyes León</h1>
-        <ul>
+      <nav className='row p-2'>
+        <h1 className='col-12 col-sm-5'>Isaías Reyes León Portfolio</h1>
+        <ul className='col-12 col-sm-4 d-flex justify-content-center' id='nav-options'>
         <Link to="/about">About me</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/contact">Contact Me</Link>
-        <a href='./assets/Isaias Reyes Leon Resume.pdf' download>Resume</a>
+        <Link to="/resume">Resume</Link>
         </ul>
       </nav>
-    </div>
-    </>
   )
 }
 
