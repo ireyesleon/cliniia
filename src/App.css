@@ -7,6 +7,7 @@ nav {
 nav h1 {
     display: inline-block;
     padding: 15px;
+    margin-left: 20px;
 }
 
 nav ul {
@@ -16,8 +17,9 @@ nav ul {
 }
 
 nav ul a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
+    color: black;
 }
 
 li a {
@@ -58,6 +60,7 @@ section a img {
     width: 100%;
     padding: 20px;
     max-height: 350px;
+    border-radius: 50px;
 }
 
 section a img:hover {

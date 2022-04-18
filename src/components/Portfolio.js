@@ -3,7 +3,7 @@ import React from 'react'
 const Portfolio = () => {
   return (
   <section className="row title">
-    <h1 className="d-flex justify-content-center">My portfolio</h1>
+    <h1 className="d-flex justify-content-center mb-5 mt-3">My portfolio</h1>
     <div className="col-12 col-sm-6">
       <p className="d-flex justify-content-center">ü meet App<a href="https://github.com/csancheze/u-meet" className="bi bi-github"> </a></p>
        <a href="https://u-meet-app.herokuapp.com/"><img src={require('.././assets/images/umeet.png')} alt="ü meet app" /></a> 

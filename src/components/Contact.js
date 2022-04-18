@@ -3,15 +3,8 @@ import emailjs from '@emailjs/browser'
 
 const Contact = () => {
 
-
-  // const [errorMsg, setErrorMsg] = useState();
   const [btnText, setBtnText] = useState('Submit');
   const form = useRef();
-  // const checkInput = () => {
-  //   const email = document.getElementsByClassName('email');
-  //   setErrorMsg('This field is required')
-  //   console.log(email.value);
-  // }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -43,7 +36,6 @@ const Contact = () => {
     <label htmlFor="exampleFormControlTextarea1">Send me a message</label>
     <textarea className="form-control" required name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  {/* <div>{errorMsg}</div> */}
   <button type="submit" className="btn btn-primary mt-2">{btnText}</button>
 </form>
     </div>
