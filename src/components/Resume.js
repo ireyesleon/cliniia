@@ -3,12 +3,12 @@ import React from 'react'
 
 function Resume() {
   return (
-    <div className='m-5'>
+    <div className='p-5 main'>
         <h1>My Resume</h1>
-        <a href='../assets/IsaiasReyesLeonResume.pdf' download>Download</a>
+        <a className='resume' href='../assets/IsaiasReyesLeonResume.pdf' download>Download</a>
         <div className='row d-flex justify-content-center mt-4'>
         <h1 className='mb-3'>Proficiencies:</h1>
-        <div className='col-12 col-sm-3'>
+        <div className='col-12 col-sm-3  border rounded m-2'>
         <h2>Frond End</h2>
         <ul>
           <li>HTML</li>
@@ -18,7 +18,7 @@ function Resume() {
           <li>Ionic</li>
         </ul>
         </div>
-        <div className='col-12 col-sm-3'>
+        <div className='col-12 col-sm-3  border rounded m-2'>
         <h2>Back End</h2>
         <ul>
           <li>NodeJS</li>
@@ -28,7 +28,7 @@ function Resume() {
           <li>Express</li>
         </ul>
         </div>
-        <div className='col-12 col-sm-3'>
+        <div className='col-12 col-sm-3  border rounded m-2'>
         <h2>Frameworks</h2>
         <ul>
           <li>Bootstrap</li>

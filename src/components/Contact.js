@@ -22,7 +22,7 @@ const Contact = () => {
       form.current.reset();
   };
   return (
-  <div className="row justify-content-center mt-5">
+  <div className="row justify-content-center pt-5 main">
   <form onSubmit={sendEmail} ref={form} className="col-6">
   <div className="form-group">
     <label htmlFor="exampleFormControlInput1">Email address</label>
@@ -36,7 +36,7 @@ const Contact = () => {
     <label htmlFor="exampleFormControlTextarea1">Send me a message</label>
     <textarea className="form-control" required name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  <button type="submit" className="btn btn-primary mt-2">{btnText}</button>
+  <button type="submit" className="btn btn-secondary mt-2">{btnText}</button>
 </form>
     </div>
   )
