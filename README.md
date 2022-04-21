@@ -15,6 +15,20 @@
   Dowload the repo from https://github.com/ireyesleon/React-Portfolio and run npm run start.
   ## Usage
   Browse around my portfolio and clic in the project of you interest, there's a link to the repo and also to the deployed app.
+  
+  Portfolio page:
+  
+  <img width="1416" alt="Screen Shot 2022-04-21 at 18 25 16" src="https://user-images.githubusercontent.com/89933923/164566968-0f26ca0d-fa6f-4ca6-8261-36ca687c1964.png">
+  
+  Contact form:
+  
+  <img width="1334" alt="Screen Shot 2022-04-21 at 18 26 40" src="https://user-images.githubusercontent.com/89933923/164567056-50fa51c4-77cf-4ae6-94fd-e31290ebc32f.png">
+  
+  Resume:
+  
+  <img width="1364" alt="Screen Shot 2022-04-21 at 18 27 19" src="https://user-images.githubusercontent.com/89933923/164567103-4b4dde13-1c9b-43e6-8849-7035179f134a.png">
+
+  
   ## License
     Project Licensed under ISC
   ## Contribution
