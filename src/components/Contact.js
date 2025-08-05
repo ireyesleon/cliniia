@@ -25,15 +25,15 @@ const Contact = () => {
   <div className="row justify-content-center pt-5 main">
   <form onSubmit={sendEmail} ref={form} className="col-6">
   <div className="form-group">
-    <label htmlFor="exampleFormControlInput1">Email address</label>
-    <input type="email" name='email_address' required className="form-control email" id="exampleFormControlInput1" placeholder="name@example.com" />
+    <label htmlFor="exampleFormControlInput1">Email</label>
+    <input type="email" name='email_address' required className="form-control email" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" />
   </div>
   <div className="form-group mt-2">
-    <label htmlFor="exampleFormControlInput1">Full Name</label>
-    <input type="name" name="name" required className="form-control" id="exampleFormControlInput1" placeholder="Ex. Fox Mulder" />
+    <label htmlFor="exampleFormControlInput1">Nombre completo</label>
+    <input type="name" name="name" required className="form-control" id="exampleFormControlInput1" placeholder="Ej. Fox Mulder" />
   </div>
   <div className="form-group mt-2">
-    <label htmlFor="exampleFormControlTextarea1">Send me a message</label>
+    <label htmlFor="exampleFormControlTextarea1">Escribe tu mensaje</label>
     <textarea className="form-control" required name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <button type="submit" className="btn btn-secondary mt-2">{btnText}</button>

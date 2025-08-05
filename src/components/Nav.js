@@ -5,16 +5,16 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
       <nav className='row p-2 d-flex'>
-        <h1 className='col-12 col-md-5 text-center'>Isaías Reyes León Portfolio</h1>
-        <ul className='col-12 col-md-6 d-flex justify-content-center' id='nav-options'>
+        <img className='col-12 col-md-6 mx-auto d-block' id="logo-pic" src={require('.././assets/images/clinIA.png')} alt="logo" />
+        <ul className="col-12 col-md-6 d-flex justify-content-center align-items-center" id="nav-options">
         <NavLink style={({ isActive }) => 
-                      (isActive ? {color: '#6c5b7c'} : {color: 'white'})} to="/about">About me</NavLink>
+                      (isActive ? {color: '#508380'} : {color: 'black'})} to="/about">Compañía</NavLink>
         <NavLink style={({ isActive }) => 
-                      (isActive ? {color: '#6c5b7c'} : {color: 'white'})} to="/portfolio">Portfolio</NavLink>
+                      (isActive ? {color: '#508380'} : {color: 'black'})} to="/portfolio">Soluciones</NavLink>
         <NavLink style={({ isActive }) => 
-                      (isActive ? {color: '#6c5b7c'} : {color: 'white'})} to="/contact">Contact Me</NavLink>
+                      (isActive ? {color: '#508380'} : {color: 'black'})} to="/contact">Contáctanos</NavLink>
         <NavLink style={({ isActive }) => 
-                      (isActive ? {color: '#6c5b7c'} : {color: 'white'})} to="/resume">Resume</NavLink>
+                      (isActive ? {color: '#508380'} : {color: 'black'})} to="/resume">Gobierno de datos</NavLink>
         </ul>
       </nav>
   )

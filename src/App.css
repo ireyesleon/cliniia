@@ -1,12 +1,18 @@
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #f67280;
+    background-color: #f4f3ee;
     min-height: 10vh;
 }
 
+#logo-pic {
+    width: 180px;
+    height: 160px;
+    border-radius: 20px;
+}
+
 .main {
-    background-color: #f8b595;
+    background-color: #f4f3ee;
     min-height: 76vh;
     min-width: 100vw;
     margin: 0;
@@ -43,7 +49,7 @@ a:hover {
 .footer {
     position: relative;
     bottom: 0;
-    background-color: #6c5b7c;
+    background-color: #508380;
     align-content: center;
     width: 100vw;
     height: 10vh;
@@ -117,4 +123,8 @@ section a img:hover {
 
 .icon:hover {
     color: #f67280;
+}
+
+.servicios {
+    background-color: #f4f3ee;
 }
