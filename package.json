@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ireyesleon.github.io/React-Portfolio",
-  "name": "react-portfolio",
+  "homepage": "https://ireyesleon.github.io/CliniIA",
+  "name": "cliniia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,11 +19,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "node server.js",
-  "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +47,6 @@
     "react-scripts": "5.0.1"
   },
   "engines": {
-  "node": "18.x"
-}
+    "node": "18.x"
+  }
 }
