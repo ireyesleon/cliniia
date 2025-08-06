@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/CliniIA/static/css/main.999dc971.css",
-    "main.js": "/CliniIA/static/js/main.37cad88c.js",
-    "static/media/clinIA.png": "/CliniIA/static/media/clinIA.dd5eb3c17bd012967b30.png",
-    "static/media/centro-salud.jpg": "/CliniIA/static/media/centro-salud.97ef0b4d254397172a6b.jpg",
-    "static/media/bootstrap-icons.woff?": "/CliniIA/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
-    "static/media/bootstrap-icons.woff2?": "/CliniIA/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
-    "index.html": "/CliniIA/index.html",
-    "main.999dc971.css.map": "/CliniIA/static/css/main.999dc971.css.map",
-    "main.37cad88c.js.map": "/CliniIA/static/js/main.37cad88c.js.map"
+    "main.css": "/cliniia/static/css/main.3ea4457a.css",
+    "main.js": "/cliniia/static/js/main.6367517b.js",
+    "static/media/clinIA.png": "/cliniia/static/media/clinIA.dd5eb3c17bd012967b30.png",
+    "static/media/centro-salud.jpg": "/cliniia/static/media/centro-salud.97ef0b4d254397172a6b.jpg",
+    "static/media/bootstrap-icons.woff?": "/cliniia/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/cliniia/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/cliniia/index.html",
+    "main.3ea4457a.css.map": "/cliniia/static/css/main.3ea4457a.css.map",
+    "main.6367517b.js.map": "/cliniia/static/js/main.6367517b.js.map"
   },
   "entrypoints": [
-    "static/css/main.999dc971.css",
-    "static/js/main.37cad88c.js"
+    "static/css/main.3ea4457a.css",
+    "static/js/main.6367517b.js"
   ]
 }
