@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f2ec2630.css",
-    "main.js": "/React-Portfolio/static/js/main.48bf148f.js",
-    "static/media/yumi-yumi.png": "/React-Portfolio/static/media/yumi-yumi.bb2ffe24bb99e3c47443.png",
-    "static/media/weather.png": "/React-Portfolio/static/media/weather.55bbca1c1de81c6eebbf.png",
-    "static/media/umeet.png": "/React-Portfolio/static/media/umeet.35b54fda907e8593d1d1.png",
-    "static/media/e-commerce.png": "/React-Portfolio/static/media/e-commerce.50cc734876805674985c.png",
-    "static/media/employee-tracker.png": "/React-Portfolio/static/media/employee-tracker.a1d6adff94b490fa1f77.png",
-    "static/media/Scheduler.png": "/React-Portfolio/static/media/Scheduler.7c865d2a2c6be1f69385.png",
-    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
-    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
-    "static/media/profile.jpeg": "/React-Portfolio/static/media/profile.0a650333454760f0bf8a.jpeg",
+    "main.css": "/React-Portfolio/static/css/main.bbb79e9e.css",
+    "main.js": "/React-Portfolio/static/js/main.66b9b18d.js",
+    "static/media/clinIA.png": "/React-Portfolio/static/media/clinIA.dd5eb3c17bd012967b30.png",
+    "static/media/centro-salud.jpg": "/React-Portfolio/static/media/centro-salud.97ef0b4d254397172a6b.jpg",
+    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.f2ec2630.css.map": "/React-Portfolio/static/css/main.f2ec2630.css.map",
-    "main.48bf148f.js.map": "/React-Portfolio/static/js/main.48bf148f.js.map"
+    "main.bbb79e9e.css.map": "/React-Portfolio/static/css/main.bbb79e9e.css.map",
+    "main.66b9b18d.js.map": "/React-Portfolio/static/js/main.66b9b18d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2ec2630.css",
-    "static/js/main.48bf148f.js"
+    "static/css/main.bbb79e9e.css",
+    "static/js/main.66b9b18d.js"
   ]
 }
