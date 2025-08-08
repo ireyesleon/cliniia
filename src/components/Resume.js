@@ -4,41 +4,8 @@ import React from 'react'
 function Resume() {
   return (
     <div className='p-5 main'>
-        <h1>My Resume</h1>
-        <a className='resume' href='../assets/IsaiasReyesLeonResume.pdf' download>Download</a>
-        <div className='row d-flex justify-content-center mt-4'>
-        <h1 className='mb-3'>Proficiencies:</h1>
-        <div className='col-12 col-sm-3  border rounded m-2'>
-        <h2>Frond End</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Bootstrap</li>
-          <li>Ionic</li>
-        </ul>
-        </div>
-        <div className='col-12 col-sm-3  border rounded m-2'>
-        <h2>Back End</h2>
-        <ul>
-          <li>NodeJS</li>
-          <li>MongoDB</li>
-          <li>MySQL</li>
-          <li>NoSQL</li>
-          <li>Express</li>
-        </ul>
-        </div>
-        <div className='col-12 col-sm-3  border rounded m-2'>
-        <h2>Frameworks</h2>
-        <ul>
-          <li>Bootstrap</li>
-          <li>Ionic</li>
-          <li>React</li>
-          <li>Object Oriented Programming</li>
-          <li>MVC</li>
-        </ul>
-        </div>
-        </div>
+        <h1>Under construction</h1>
+        <img className='col-12 col-md-12 mx-auto d-block' id="centro-pic" src={require('.././assets/images/governance.png')} alt="logo" />
     </div>
   )
 }
