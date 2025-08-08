@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/cliniia/static/css/main.3ea4457a.css",
-    "main.js": "/cliniia/static/js/main.6367517b.js",
+    "main.js": "/cliniia/static/js/main.b7fcfc9d.js",
     "static/media/clinIA.png": "/cliniia/static/media/clinIA.dd5eb3c17bd012967b30.png",
     "static/media/centro-salud.jpg": "/cliniia/static/media/centro-salud.97ef0b4d254397172a6b.jpg",
     "static/media/bootstrap-icons.woff?": "/cliniia/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/cliniia/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/governance.png": "/cliniia/static/media/governance.7bd478a48887a80e75b2.png",
     "index.html": "/cliniia/index.html",
     "main.3ea4457a.css.map": "/cliniia/static/css/main.3ea4457a.css.map",
-    "main.6367517b.js.map": "/cliniia/static/js/main.6367517b.js.map"
+    "main.b7fcfc9d.js.map": "/cliniia/static/js/main.b7fcfc9d.js.map"
   },
   "entrypoints": [
     "static/css/main.3ea4457a.css",
-    "static/js/main.6367517b.js"
+    "static/js/main.b7fcfc9d.js"
   ]
 }
