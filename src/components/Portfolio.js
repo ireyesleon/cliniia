@@ -1,4 +1,5 @@
 import React from 'react';
+import Demo from "../assets/demo.mp4";
 
 const Portfolio = () => {
   return (
@@ -36,6 +37,21 @@ const Portfolio = () => {
         </div>
 
       </div>
+
+      {/* Sección de demostración en video */}
+<div className="text-center my-5">
+  <h2 className="fw-bold mb-4">Demostración de cómo se vería la interfaz de usuario</h2>
+  <video
+    src={Demo}
+    controls
+    className="rounded shadow-sm"
+    style={{
+      width: "100%",      // ancho máximo disponible
+      maxWidth: "200px",  // limita el ancho en pantallas grandes
+      height: "auto"
+    }}
+  />
+</div>
 
       {/* Fase 2 */}
       <h2 className="fw-bold text-center mb-4">Fase 2</h2>
