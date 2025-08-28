@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const About = () => {
+
+  useEffect(() => {
+    // Inicializa el carrusel automáticamente con 4 segundos de intervalo
+    const carouselElement = document.getElementById('aboutCarousel');
+    if (carouselElement) {
+      new bootstrap.Carousel(carouselElement, {
+        interval: 4000, // 4 segundos
+        ride: 'carousel'
+      });
+    }
+  }, []);
+
   return (
     <div className="container-fluid p-0 main">
 
@@ -33,32 +46,30 @@ const About = () => {
             <div
               id="aboutCarousel"
               className="carousel slide rounded shadow"
-              data-bs-ride="carousel"
-              data-bs-interval="4000"
             >
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
-                    className="d-block w-100 img-fluid"
+                    className="d-block w-100"
                     src={require('../assets/images/centro-salud.jpg')}
                     alt="Centro de salud"
-                    style={{ maxHeight: "60vh", objectFit: "cover", width: "100%" }}
+                    style={{ maxHeight: "55vh", objectFit: "cover", width: "100%" }}
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    className="d-block w-100 img-fluid"
+                    className="d-block w-100"
                     src={require('../assets/images/diagnostico.png')}
                     alt="Diagnóstico IA"
-                    style={{ maxHeight: "60vh", objectFit: "cover", width: "100%" }}
+                    style={{ maxHeight: "55vh", objectFit: "cover", width: "100%" }}
                   />
                 </div>
                 <div className="carousel-item">
                   <img
-                    className="d-block w-100 img-fluid"
+                    className="d-block w-100"
                     src={require('../assets/images/medicos.jpg')}
                     alt="Médicos trabajando"
-                    style={{ maxHeight: "60vh", objectFit: "cover", width: "100%" }}
+                    style={{ maxHeight: "55vh", objectFit: "cover", width: "100%" }}
                   />
                 </div>
               </div>
@@ -87,18 +98,23 @@ const About = () => {
 
           {/* Texto */}
           <div className="col-12 col-md-6">
-            <h2 className="fw-bold text-center mb-3">¿Qué es CliniIA?</h2>
-            <p className="text-center">
+            <h2 className="fw-bold mb-3 text-center">¿Qué es CliniIA?</h2>
+            <p className='text-center'>
               CliniIA surge como respuesta a una de las problemáticas más urgentes en el sector salud:
               la falta de acceso oportuno y confiable a diagnósticos médicos, especialmente en comunidades
               vulnerables con escasez de recursos. La plataforma busca democratizar el acceso a herramientas
               de diagnóstico de alta calidad mediante inteligencia artificial.
             </p>
-            <p className="text-center">
+            <p className='text-center'>
               Nuestro valor diferencial radica en combinar innovación tecnológica con compromiso social,
               integrando modelos de IA ligeros capaces de operar en entornos con baja infraestructura y
               ofreciendo interfaces accesibles a todo tipo de usuarios.
             </p>
+            <div className="d-flex justify-content-center mt-3">
+            <Link to="/portfolio" className="btn btn-primary btn-lg">
+              Conoce más
+            </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -200,6 +216,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };
