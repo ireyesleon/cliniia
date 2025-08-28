@@ -53,7 +53,7 @@ const About = () => {
                     className="d-block w-100"
                     src={require('../assets/images/centro-salud.jpg')}
                     alt="Centro de salud"
-                    style={{ maxHeight: "55vh", objectFit: "cover", width: "100%" }}
+                    style={{ maxHeight: "48vh", objectFit: "cover", width: "100%" }}
                   />
                 </div>
                 <div className="carousel-item">
@@ -61,7 +61,7 @@ const About = () => {
                     className="d-block w-100"
                     src={require('../assets/images/diagnostico.png')}
                     alt="Diagnóstico IA"
-                    style={{ maxHeight: "55vh", objectFit: "cover", width: "100%" }}
+                    style={{ maxHeight: "48vh", objectFit: "cover", width: "100%" }}
                   />
                 </div>
                 <div className="carousel-item">
@@ -69,7 +69,7 @@ const About = () => {
                     className="d-block w-100"
                     src={require('../assets/images/medicos.jpg')}
                     alt="Médicos trabajando"
-                    style={{ maxHeight: "55vh", objectFit: "cover", width: "100%" }}
+                    style={{ maxHeight: "48vh", objectFit: "cover", width: "100%" }}
                   />
                 </div>
               </div>
