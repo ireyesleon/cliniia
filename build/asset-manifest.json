@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cliniia/static/css/main.685eefb5.css",
-    "main.js": "/cliniia/static/js/main.104d4ba5.js",
+    "main.css": "/cliniia/static/css/main.08f540aa.css",
+    "main.js": "/cliniia/static/js/main.8db11595.js",
     "static/media/diagnostico.png": "/cliniia/static/media/diagnostico.628cad676eeeb2e9ac15.png",
     "static/media/clinIA.png": "/cliniia/static/media/clinIA.dd5eb3c17bd012967b30.png",
     "static/media/centro-salud.jpg": "/cliniia/static/media/centro-salud.97ef0b4d254397172a6b.jpg",
@@ -10,11 +10,11 @@
     "static/media/governance.png": "/cliniia/static/media/governance.7bd478a48887a80e75b2.png",
     "static/media/medicos.jpg": "/cliniia/static/media/medicos.93995085ca5f6a04ba61.jpg",
     "index.html": "/cliniia/index.html",
-    "main.685eefb5.css.map": "/cliniia/static/css/main.685eefb5.css.map",
-    "main.104d4ba5.js.map": "/cliniia/static/js/main.104d4ba5.js.map"
+    "main.08f540aa.css.map": "/cliniia/static/css/main.08f540aa.css.map",
+    "main.8db11595.js.map": "/cliniia/static/js/main.8db11595.js.map"
   },
   "entrypoints": [
-    "static/css/main.685eefb5.css",
-    "static/js/main.104d4ba5.js"
+    "static/css/main.08f540aa.css",
+    "static/js/main.8db11595.js"
   ]
 }

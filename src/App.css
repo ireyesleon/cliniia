@@ -17,7 +17,6 @@ nav {
 #logo-pic {
     width: 180px;
     height: 160px;
-    border-radius: 20px;
     object-fit: contain;
 }
 
@@ -179,4 +178,39 @@ nav {
 
 .servicios {
     background-color: #f4f3ee;
+}
+
+/* Animación fade-in para todos los componentes que lo usen */
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Contact Form Styles */
+.contact-form {
+  max-width: 600px; /* para que no se vea muy ancho en pantallas grandes */
+  width: 90%;       /* se adapta a móviles */
+  margin: 0 auto;   /* centrado horizontal */
+  padding: 2rem;    /* espacio interno consistente */
+}
+
+/* Inputs y textarea se ven iguales a la landing */
+.contact-form .form-control {
+  border-radius: 0.5rem;
+}
+
+/* Botón centrado y estilo landing */
+.contact-form .btn {
+  border-radius: 50px;
+}
+
+/* Ajustes responsive extra */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
 }

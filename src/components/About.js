@@ -25,7 +25,7 @@ const About = () => {
             src={require('../assets/images/clinIA.png')}
             alt="CliniIA Logo"
             className="mb-4"
-            style={{ maxWidth: "200px" }}
+            style={{ maxWidth: "200px"}}
           />
           <h1 className="fw-bold">CliniIA – Diagnóstico Inteligente y Accesible</h1>
           <p className="lead mt-3">
