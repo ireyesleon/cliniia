@@ -39,18 +39,42 @@ const Portfolio = () => {
       </div>
 
       {/* Sección de demostración en video */}
-<div className="text-center my-5">
-  <h2 className="fw-bold mb-4">Demostración de cómo se vería la interfaz de usuario</h2>
-  <video
-    src={Demo}
-    controls
-    className="rounded shadow-sm"
-    style={{
-      width: "100%",      // ancho máximo disponible
-      maxWidth: "200px",  // limita el ancho en pantallas grandes
-      height: "auto"
-    }}
-  />
+<div className="container my-5">
+  <h2 className="fw-bold text-center mb-4">
+    Demostración de panel de control para seguimiento de pacientes
+  </h2>
+
+  {/* Row del video */}
+  <div className="row justify-content-center mb-4">
+    <div className="col-12 col-md-6 d-flex justify-content-center">
+      <video
+        src={Demo}
+        controls
+        className="rounded shadow-sm"
+        style={{ width: "100%", maxWidth: "400px", height: "auto" }}
+      />
+    </div>
+  </div>
+
+  {/* Row de las imágenes */}
+  <div className="row justify-content-center g-3">
+    <div className="col-12 col-md-5 d-flex justify-content-center">
+      <img
+        src={require('../assets/images/cita1.png')}
+        alt="Screenshot 1"
+        className="rounded shadow-sm"
+        style={{ width: "100%", maxWidth: "300px", height: "auto" }}
+      />
+    </div>
+    <div className="col-12 col-md-5 d-flex justify-content-center">
+      <img
+        src={require('../assets/images/cita2.png')}
+        alt="Screenshot 2"
+        className="rounded shadow-sm"
+        style={{ width: "100%", maxWidth: "300px", height: "auto" }}
+      />
+    </div>
+  </div>
 </div>
 
       {/* Fase 2 */}
